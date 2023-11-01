@@ -212,11 +212,6 @@
   .section-garden__left {
     width: 45%;
   }
-  .section-collection__right {
-    -webkit-box-flex: 1;
-        -ms-flex: 1 1 40%;
-            flex: 1 1 40%;
-  }
   .section-collection__left {
     margin-right: 10px;
   }
@@ -231,11 +226,16 @@
   }
   .section-collection__left_title {
     margin-bottom: 10px;
-    font-size: 25px;
+    font-size: 30px;
   }
   .section-collection__left .button {
-    padding: 5px 15px;
+    padding: 7px 20px;
     font-size: 10px;
+  }
+  .section-collection__right {
+    -webkit-box-flex: 0;
+        -ms-flex: 0 1 70%;
+            flex: 0 1 70%;
   }
 }
 @media (max-width: 320px) {
